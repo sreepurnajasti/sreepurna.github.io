@@ -1,0 +1,38 @@
+.card {
+  padding: 3rem;
+  background: $color-white;
+  border-radius: 5px;
+  --webkit-box-shadow: 0 1.5rem 4rem rgba($color-black, 0.3);
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.3);
+  &__picture {
+    color: $color-white;
+    background: $color-accent;
+    margin: 0 auto;
+    position: relative;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    .fa-align {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 5rem;
+    }
+  }
+  &__heading {
+    margin: 2rem 0rem;
+  }
+  &__details {
+    text-align: center;
+    ul {
+      list-style: none;
+      font-size: 1.4rem;
+      li {
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

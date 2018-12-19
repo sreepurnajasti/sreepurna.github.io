@@ -1,0 +1,15 @@
+.skills {
+  background: $color-white;
+  --webkit-box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+  border-radius: 5px;
+
+  &--img {
+    height: 7rem;
+    width: 7rem;
+  }
+  &--img--special {
+    height: 5rem;
+    width: 15rem;
+  }
+}

@@ -1,0 +1,29 @@
+.section-experience {
+  padding: 20vh 0;
+  margin-top: -15vh;
+}
+.section-education {
+  padding: 20vh 0;
+  margin-top: -15vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary, 0.4),
+      rgba($color-primary-light, 0.6)
+    ),
+    url("../../img/student.jpg");
+  background-size: cover;
+  -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+  clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+}
+.section-skills {
+  padding: 20vh 0;
+  margin-top: -15vh;
+}
+.section-contact {
+  padding: 20vh 0vh 10vh 0vh;
+  margin-top: -18vh;
+  background-color: $color-black-light-1;
+  -webkit-clip-path: polygon(50% 15%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+  clip-path: polygon(50% 15%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+  text-align: center;
+}

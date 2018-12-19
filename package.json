@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is a portfolio of Full stack developer - Sreepurna Jasti",
+  "homepage": "https://sreepurnajasti.github.io",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "deploy": "gh-pages -d production"
+  },
+  "keywords": [
+    "portfolio",
+    "sreepurna jasti",
+    "full stack developer",
+    "stack developer",
+    "node.js developer"
+  ],
+  "author": "sreepurnajasti",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0"
+  }
+}
